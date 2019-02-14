@@ -1,6 +1,7 @@
 #!/bin/bash
 echo -e '\0033\0143'
 echo "Starting the web framework"
+yarn install &&
 yarn serve &
 sleep 3
 trap "exit" INT

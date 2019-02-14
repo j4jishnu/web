@@ -35,4 +35,4 @@ WORKDIR /root/app/
 EXPOSE 8080
 
 # Initialization
-CMD ["/bin/bash","/root/init.sh"]
+ CMD ["/bin/bash","/root/init.sh"]
